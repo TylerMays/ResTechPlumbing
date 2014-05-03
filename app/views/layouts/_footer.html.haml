@@ -1,0 +1,64 @@
+%footer#footer
+  .footer-top
+  .footer-wrapper
+    .container
+      .row.show-grid
+        .col-sm-12.col-md-12
+          .row.show-grid
+            / FOOTER: LOGO
+            .col-sm-4.col-md-4
+              %img.footer-logo.img-responsive{:alt => "", :src => "img/grey_logo.png"}
+              / FOOTER: ADDRESS
+              %address.address
+                %p
+                  %i.icon-map-marker.icon-large
+                  1800 North Central Expressway
+                %p
+                  %i &nbsp;
+                  Suite 800
+                %p
+                  %i &nbsp;
+                  Dallas, Texas 75231
+                %p
+                  %i.icon-phone.icon-large
+                  Phone: (800) 655-7800
+                %p
+                  %i.icon-print.icon-large
+                  Fax: (800) 655-7800
+            / FOOTER: ABOUT US
+            .col-sm-4.col-md-4.footer-center
+              %h4.center-title About Us
+              %p
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero
+                magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque
+                viverra vehicula sem ut volutpat.
+              %p
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero
+                magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque
+                viverra vehicula sem ut volutpat.
+            / FOOTER: NAVIGATION LINKS
+            .col-sm-4.col-md-4.footer-right
+              %h4.center-title Navigate
+              %ul.footer-navigate
+                %li
+                  %a{:href => ""} Home
+                %li
+                  %a{:href => ""} Features
+                %li
+                  %a{:href => ""} Pages
+                %li
+                  %a{:href => ""} Portfolio
+                %li
+                  %a{:href => ""} Blog
+                %li
+                  %a{:href => ""} Contact
+  .footer-bottom
+    .container
+      .row.show-grid
+        / FOOTER: COPYRIGHT TEXT
+        .col-sm-12.col-md-12
+          %p
+            bizstrap Corporate HTML Template by
+            = succeed "." do
+              %a{:href => "http://www.themeleaf.com"} ThemeLeaf
+            Copyright 2012.

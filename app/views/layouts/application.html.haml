@@ -5,11 +5,15 @@
     %title= content_for?(:title) ? yield(:title) : 'Res Tech Plumbing'
     %meta{:name => "description", :content => "#{content_for?(:description) ? yield(:description) : 'Res Tech Plumbing'}"}
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    = stylesheet_link_tag 'application', 'http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic'
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
-  %body
-    %header
-      = render 'layouts/navigation'
-    %main{:role => "main"}
-      = render 'layouts/messages'
-      = yield
+  %body.background-pattern
+    #over
+      #out_container.boxed-attached
+        = render 'layouts/header'
+        %main.main-content{:role => "main"}
+          = render 'layouts/messages'
+          = yield
+          = render 'layouts/recent_tweets'
+        = render 'layouts/footer'

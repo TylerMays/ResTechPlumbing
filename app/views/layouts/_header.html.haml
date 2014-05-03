@@ -1,0 +1,35 @@
+/ THE LINE AT THE VERY TOP OF THE PAGE
+.top_line
+/ HEADER AREA
+%header
+  .container
+    .row
+      / HEADER: LOGO AREA
+      .col-sm-4.col-md-4.logo
+        %a.logo{:href => "#"}
+          = image_tag("logo.png", alt: "ResTech Plumbing", title: "ResTech Plumbing")
+          / %img.img-responsive{:alt => "logo", :src => "img/logo.png", :title => "bizstrap"}/
+      .col-sm-4.col-md-4.col-sm-offset-4.col-md-offset-4.col-lg-offset-4
+        / HEADER: PHONE NUMBER
+        %p.head_phone
+          %a{:href => "tel:555-555-5555"} (800) 655-7800
+      / HEADER: SOCIAL ICONS
+      %ul.socials.unstyled
+        %li
+          %a.flickr{:href => "#"}
+        %li
+          %a.twitter{:href => "#"}
+        %li
+          %a.facebook{:href => "#"}
+        %li
+          %a.youtube{:href => "#"}
+        %li
+          %a.dribbble{:href => "#"}
+        %li
+          %a.pinterest{:href => "#"}
+        %li
+          %a.linkedin{:href => "#"}
+        %li
+          %a.google_plus{:href => "#"}
+  / HEADER: PRIMARY SITE NAVIGATION
+  = render 'layouts/navigation'
