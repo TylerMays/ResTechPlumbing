@@ -1,17 +1,7 @@
 ResTechPlumbing::Application.routes.draw do
-  get 'home_pages/home'
-
-  get 'home_pages/about'
-
-  get 'home_pages/residential'
-
-  get 'home_pages/commercial'
-
-  get 'home_pages/products'
-
-  get 'home_pages/plumbing'
-
-  get 'home_pages/contact'
+  %w( home about residential commercial products plumbing contact ).each do |page|
+    match '/'+page, to: 'home_pages#'+page, via: 'get'
+  end
 
   root to: 'home_pages#home'
 end
