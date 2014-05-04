@@ -12,9 +12,10 @@ gem 'flexslider'
 gem 'fancybox2-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
+gem 'haml-rails'
 gem 'sass-rails', '~> 4.0.3'
 gem 'bootstrap-sass'
-gem 'haml-rails'
+gem 'font-awesome-rails'
 
 group :development do
   gem 'better_errors'
