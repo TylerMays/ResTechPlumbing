@@ -11,11 +11,14 @@
  * file per style scope.
  *
  *= require_tree ./base
+ *= require flexslider.css
+ *= require fancybox
  *= require_tree ./bizstrap
  *= require_tree ./style
  *= require_self
  */
 
 .background-pattern {
-  background-image: image-url('patterns/pattern_15.png')
+  background-image: image-url('patterns/pattern_15.png');
+  min-height: 100%;
 }
