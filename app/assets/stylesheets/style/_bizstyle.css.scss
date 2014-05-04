@@ -1,0 +1,36 @@
+// Element Helper Classes;
+.display-inline {
+  clear: none !important;
+  display: inline !important;
+  margin: {
+    bottom: none !important;
+    left: none !important;
+    right: none !important;
+    top: none !important;
+  }
+}
+
+// Image Helper Classes
+.img-fullwidth {
+  width: 100%;
+}
+
+//////////
+
+// Header
+div.logo {
+  margin: {
+    bottom: 10px;
+    top: 5px;
+  }
+}
+
+// Homepage
+.bannercontainer {
+  margin-bottom: 0;
+
+  .banner {
+    height: auto;
+    max-width: 100%;
+  }
+}
