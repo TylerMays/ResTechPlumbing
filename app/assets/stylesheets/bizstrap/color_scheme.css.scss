@@ -2,16 +2,16 @@
 ---------------------------------------------------------------------- */
 
 .top_line {
-  background-color: #2773ae;
+  background-color: #648798;
 }
 
 /* Color that link text will appear as
 ---------------------------------------------------------------------- */
 
 a {
-  color: #2773ae;
+  color: #648798;
   &:hover {
-    color: #2773ae;
+    color: #648798;
   }
 }
 
@@ -23,22 +23,22 @@ a {
 
 .navbar .nav {
   .open .dropdown-menu .active a {
-    color: #2773ae;
+    color: #648798;
     &:hover {
-      color: #2773ae;
+      color: #648798;
     }
   }
   .active {
     > a, a > i {
-      color: #2773ae;
+      color: #648798;
       &:hover {
-        color: #2773ae;
+        color: #648798;
       }
     }
   }
   li.dropdown {
     &.open > .dropdown-toggle, &.active > .dropdown-toggle, &.open.active > .dropdown-toggle {
-      color: #2773ae;
+      color: #648798;
     }
   }
   > li {
@@ -46,17 +46,17 @@ a {
       background-color: #292929;
       background-image: none !important;
       filter: none;
-      color: #2773ae;
+      color: #648798;
     }
     &:hover a {
-      color: #2773ae;
+      color: #648798;
       i {
-        color: #2773ae;
+        color: #648798;
       }
     }
   }
   .active > a, li:hover > a {
-    border-top: 3px solid #2773ae;
+    border-top: 3px solid #648798;
   }
 }
 
@@ -85,7 +85,7 @@ a {
 ---------------------------------------------------------------------- */
 
 .recent-tweets {
-  background-color: #2773ae;
+  background-color: #648798;
 }
 
 /* Color of First and Last Name on blog comments
@@ -93,7 +93,7 @@ a {
 
 .comments {
   .name, h2 {
-    color: #2773ae;
+    color: #648798;
   }
 }
 
@@ -104,7 +104,7 @@ a {
 ---------------------------------------------------------------------- */
 
 .dropcap-theme {
-  color: #2773ae;
+  color: #648798;
 }
 
 /* Color of table headers in non-highlighted price tables
@@ -112,10 +112,10 @@ a {
 
 .dif-table {
   .title {
-    background-color: #2773ae;
+    background-color: #648798;
   }
   .cost {
-    color: #2773ae;
+    color: #648798;
   }
 }
 
@@ -126,7 +126,7 @@ a {
 ---------------------------------------------------------------------- */
 
 .text-divider5 span, .text-divider6 span {
-  background-color: #2773ae;
+  background-color: #648798;
 }
 
 /* Color tab on text divider 6
@@ -137,7 +137,7 @@ a {
 
 .portfolio-slider #carousel .slides li {
   &:hover, &.flex-active-slide {
-    border: 2px solid #2773ae;
+    border: 2px solid #648798;
   }
 }
 
@@ -148,16 +148,16 @@ a {
 ---------------------------------------------------------------------- */
 
 .buttons-container {
-  background-color: #2773ae;
+  background-color: #648798;
 }
 
 /* Color of active nav filter on portfolio and portfolio grid pages
 ---------------------------------------------------------------------- */
 
 .nav-pills > .active > a {
-  background-color: #2773ae;
+  background-color: #648798;
   &:hover {
-    background-color: #2773ae;
+    background-color: #648798;
   }
 }
 
@@ -183,7 +183,7 @@ a {
     background-position: 0 -31px;
     background-color: #cccccc;
     &:hover {
-      background-color: #2773ae;
+      background-color: #648798;
       background-position: 0 -31px;
     }
     &.active {
@@ -194,18 +194,18 @@ a {
     background-position: 0 0;
     background-color: #cccccc;
     &:hover {
-      background-color: #2773ae;
+      background-color: #648798;
       background-position: 0 0;
     }
   }
   a.active {
-    background-color: #2773ae;
+    background-color: #648798;
   }
 }
 
 .fancy-wrapper .fancy {
   /* background: url("../img/home_portfolio_hover_orange.png") no-repeat scroll center center transparent; */
-  background-color: #2773ae;
+  background-color: #648798;
   &:after {
     content: "\f067";
     position: absolute;
@@ -230,21 +230,21 @@ a {
     bottom: 0;
     left: 50%;
     margin-left: -5px;
-    background: #2773ae;
+    background: #648798;
   }
   .bottom-block {
     border-bottom: 1px solid transparent;
   }
   &:hover {
     .bottom-block {
-      border-bottom: 1px solid #2773ae;
+      border-bottom: 1px solid #648798;
     }
-    border-bottom: 1px solid #2773ae;
+    border-bottom: 1px solid #648798;
   }
 }
 
 /*.portfolio-grid-1:hover .small .bottom-block, .portfolio-grid-1:hover .middle .bottom-block, .portfolio-grid-1:hover .tall .bottom-block {
-    border-bottom: 1px solid #2773AE;
+    border-bottom: 1px solid #648798;
 }*/
 
 a.cs-logo {
