@@ -8,24 +8,18 @@
             / FOOTER: LOGO
             .col-sm-4.col-md-4
               / %img.footer-logo.img-responsive{:alt => "", :src => "img/grey_logo.png"}
-              = image_tag "bizstrap/grey_logo.png", class: "footer-logo img-responsive"
+              = image_tag "logo-bw.png", class: "footer-logo img-responsive"
               / FOOTER: ADDRESS
               %address.address
                 %p
-                  %i.icon-map-marker.icon-large
-                  1800 North Central Expressway
+                  = fa_icon "map-marker 2x"
+                  3845 Pedley Ave
                 %p
                   %i &nbsp;
-                  Suite 800
+                  Norco, CA 92860
                 %p
-                  %i &nbsp;
-                  Dallas, Texas 75231
-                %p
-                  %i.icon-phone.icon-large
-                  Phone: (800) 655-7800
-                %p
-                  %i.icon-print.icon-large
-                  Fax: (800) 655-7800
+                  = fa_icon "phone 2x"
+                  Phone: (951) 737-5800
             / FOOTER: ABOUT US
             .col-sm-4.col-md-4.footer-center
               %h4.center-title About Us
@@ -42,24 +36,23 @@
               %h4.center-title Navigate
               %ul.footer-navigate
                 %li
-                  %a{:href => ""} Home
+                  = link_to "Home", home_path
                 %li
-                  %a{:href => ""} Features
+                  = link_to "About", about_path
                 %li
-                  %a{:href => ""} Pages
+                  = link_to "Residential", residential_path
                 %li
-                  %a{:href => ""} Portfolio
+                  = link_to "Commercial", commercial_path
                 %li
-                  %a{:href => ""} Blog
+                  = link_to "Products", products_path
                 %li
-                  %a{:href => ""} Contact
+                  = link_to "Contact", contact_path
   .footer-bottom
     .container
       .row.show-grid
         / FOOTER: COPYRIGHT TEXT
         .col-sm-12.col-md-12
           %p
-            bizstrap Corporate HTML Template by
-            = succeed "." do
-              %a{:href => "http://www.themeleaf.com"} ThemeLeaf
-            Copyright 2012.
+            ©
+            = link_to 'ResTech Plumbing', root_path
+            #{Time.now.year}
