@@ -2,6 +2,10 @@
   = link_to home_path do
     HOME
     %i restech home
+%li.single{class: "#{nav_active(about_path)}"}
+  = link_to about_path do
+    ABOUT
+    %i the restech story
 %li.single{class: "#{nav_active(residential_path)}"}
   = link_to residential_path do
     RESIDENTIAL
