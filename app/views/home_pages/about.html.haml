@@ -1,2 +1,113 @@
-%h1 HomePages#about
-%p Find me in app/views/home_pages/about.html.haml
+.row.show-grid
+  .col-md-12.col-sm-12
+    .row.show-grid.clear-both
+      / BEGIN LEFT-SIDEBAR
+      #left-sidebar.col-md-3.col-sm-3.sidebar
+        / LEFT-SIDEBAR: SIDEBAR NAVIGATION
+        .side-nav.sidebar-block
+          %h2 Pages
+          %ul
+            %li.active
+              %a{:href => "3_columns_about.html"} About Us (both sidebars)
+            %li
+              %a{:href => "left_column_about.html"} About Us (left sidebar)
+            %li
+              %a{:href => "right_column_about.html"} About Us (right sidebar)
+            %li
+              %a{:href => "gallery.html"} Gallery
+            %li
+              %a{:href => "our_team_one_col.html"} Our Team
+            %li
+              %a{:href => "our_team.html"} Our Team (Large blocks)
+            %li
+              %a{:href => "philosophy.html"} Philosophy
+            %li
+              %a{:href => "coming_soon.html"} Coming Soon Page
+            %li
+              %a{:href => "faqs.html"} FAQs
+      / END LEFT-SIDEBAR
+      / BEGIN ARTICLE CONTENT AREA
+      .col-md-6.col-sm-6.main-column.three-columns-central
+        %article
+          %h1 ABOUT US
+          %p Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          %img.bordered-img.img-responsive{:alt => "", :src => "img/about-us.jpg"}/
+          %p Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui.
+          %ul.icons
+            %li
+              %i.icon-ok
+              Lists
+            %li
+              %i.icon-ok
+              Buttons
+            %li
+              %i.icon-ok
+              Button groups
+            %li
+              %i.icon-ok
+              Navigation
+            %li
+              %i.icon-ok
+              Prepended form inputs
+          %p Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Curabitur blandit tempus porttitor. Donec ullamcorper nulla non metus auctor fringilla. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo.
+          %p Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper.
+          %p Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      / END ARTICLE CONTENT AREA
+      / BEGIN RIGHT-SIDEBAR
+      #right-sidebar.col-md-3.col-sm-3.sidebar
+        / RIGHT-SIDEBAR: TEXT WIDGET AREA
+        .text-widget.sidebar-block
+          %h2 Text Widget
+          %p
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque viverra vehicula sem ut volutpat. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravi
+        / RIGHT-SIDEBAR: TAGS WIDGET AREA
+        / .tags-widget.sidebar-block
+        /   %h2 Tags
+        /   %ul
+        /     %li
+        /       %p
+        /         %i.icon-tags
+        /         %a{:href => "#"} blog
+        /     %li
+        /       %p
+        /         %i.icon-tags
+        /         %a{:href => "#"} photo
+        /     %li
+        /       %p
+        /         %i.icon-tags
+        /         %a{:href => "#"} news
+        /     %li
+        /       %p
+        /         %i.icon-tags
+        /         %a{:href => "#"} business
+        /     %li
+        /       %p
+        /         %i.icon-tags
+        /         %a{:href => "#"} commercial
+        /     %li
+        /       %p
+        /         %i.icon-tags
+        /         %a{:href => "#"} design
+        / / RIGHT-SIDEBAR: GALLERY WIDGET AREA
+        / .gallery-widget.sidebar-block
+        /   %h2 Gallery Widget
+        /   %ul
+        /     %li
+        /       %a.photo{:href => "#"}
+        /         %img{:alt => "", :src => "img/blog-widget01.jpg"}/
+        /     %li
+        /       %a.photo{:href => "#"}
+        /         %img{:alt => "", :src => "img/blog-widget02.jpg"}/
+        /     %li
+        /       %a.photo{:href => "#"}
+        /         %img{:alt => "", :src => "img/blog-widget03.jpg"}/
+        /     %li
+        /       %a.photo{:href => "#"}
+        /         %img{:alt => "", :src => "img/blog-widget04.jpg"}/
+        /     %li
+        /       %a.photo{:href => "#"}
+        /         %img{:alt => "", :src => "img/blog-widget05.jpg"}/
+        /     %li
+        /       %a.photo{:href => "#"}
+        /         %img{:alt => "", :src => "img/blog-widget06.jpg"}/
+      / END RIGHT-SIDEBAR
