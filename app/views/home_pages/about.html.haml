@@ -5,26 +5,18 @@
       #left-sidebar.col-md-3.col-sm-3.sidebar
         / LEFT-SIDEBAR: SIDEBAR NAVIGATION
         .side-nav.sidebar-block
-          %h2 Pages
+          %h2 Learn More
           %ul
-            %li.active
-              %a{:href => "3_columns_about.html"} About Us (both sidebars)
-            %li
-              %a{:href => "left_column_about.html"} About Us (left sidebar)
-            %li
-              %a{:href => "right_column_about.html"} About Us (right sidebar)
-            %li
-              %a{:href => "gallery.html"} Gallery
-            %li
-              %a{:href => "our_team_one_col.html"} Our Team
-            %li
-              %a{:href => "our_team.html"} Our Team (Large blocks)
-            %li
-              %a{:href => "philosophy.html"} Philosophy
-            %li
-              %a{:href => "coming_soon.html"} Coming Soon Page
-            %li
-              %a{:href => "faqs.html"} FAQs
+            %li.single{class: "#{nav_active(home_path)}"}
+              = link_to "Home", home_path
+            %li.single{class: "#{nav_active(about_path)}"}
+              = link_to "About", about_path
+            %li.single{class: "#{nav_active(residential_path)}"}
+              = link_to "Residential", residential_path
+            %li.single{class: "#{nav_active(commercial_path)}"}
+              = link_to "Commercial", commercial_path
+            %li.single{class: "#{nav_active(products_path)}"}
+              = link_to "Products", products_path
       / END LEFT-SIDEBAR
       / BEGIN ARTICLE CONTENT AREA
       .col-md-6.col-sm-6.main-column.three-columns-central
@@ -33,22 +25,6 @@
           %p Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           %img.bordered-img.img-responsive{:alt => "", :src => "img/about-us.jpg"}/
           %p Donec ullamcorper nulla non metus auctor fringilla. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui.
-          %ul.icons
-            %li
-              %i.icon-ok
-              Lists
-            %li
-              %i.icon-ok
-              Buttons
-            %li
-              %i.icon-ok
-              Button groups
-            %li
-              %i.icon-ok
-              Navigation
-            %li
-              %i.icon-ok
-              Prepended form inputs
           %p Donec ullamcorper nulla non metus auctor fringilla. Sed posuere consectetur est at lobortis. Curabitur blandit tempus porttitor. Donec ullamcorper nulla non metus auctor fringilla. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo.
           %p Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vestibulum id ligula porta felis euismod semper.
           %p Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
