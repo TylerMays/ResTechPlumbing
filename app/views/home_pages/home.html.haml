@@ -1,242 +1,242 @@
-
-/ MAIN CONTENT AREA: SLIDER BANNER (REVOLUTION SLIDER)
-.col-sm-12.col-md-12
-  .bannercontainer
-    .banner
-      .row
-        .col-sm-12.col-md-7
-          = image_tag "istock/plumber-at-work.jpg", alt: "Banner Image", class: "img-fullwidth thumbnail"
-        .col-sm-12.col-md-5
-          .grey-box.hero-block-2
-            %h1
-              THE TRUSTED PLUMBING EXPERTS
-            %p
-              = fa_icon "wrench 4x", class: "text-muted pull-left"
-              ResTech Plumbing and Drain is the #1 name in plumbing and drain services.
-              ou can rely on our plumbers for fast, expert service. 1-951-737-5800
-            = link_to contact_path, class: "btn btn-warning" do
-              Get a Free Quote
-.col-sm-12.col-md-12
-  .horizontal-divider
-.row.main-block.index1
+.row
+  / MAIN CONTENT AREA: SLIDER BANNER (REVOLUTION SLIDER)
   .col-sm-12.col-md-12
-    / MAIN CONTENT AREA: bizstrap CUSTOM - HERO LIST
-    .row.show-grid.hero-list
-      .col-sm-3.col-md-3
-        .image-wrapper
-          .img
-            = fa_icon "exclamation-triangle 2x inverse"
-        .image-text
-          %h2 Emergency Service
-          %p
-            We can help when you need fast and reliable help in an emergency
-            %a{:href => "#"} Learn more&raquo;
-        .clear
-      .col-sm-3.col-md-3
-        .image-wrapper
-          .img
-            = fa_icon "clock-o 2x inverse"
-        .image-text
-          %h2 Available 24/7
-          %p
-            ResTech Plumbers are available to help day and night, 7 days a week.
-            %a{:href => "#"} Learn more&raquo;
-        .clear
-      .col-sm-3.col-md-3
-        .image-wrapper
-          .img
-            = fa_icon "thumbs-o-up 2x inverse"
-        .image-text
-          %h2 Trusted & Recommended
-          %p
-            ResTech comes
-            = link_to "highly recommended", "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "display-inline"
-            by our customers
-            %a{:href => "#"} Learn more&raquo;
-        .clear
-      .col-sm-3.col-md-3
-        .image-wrapper
-          .img
-            = fa_icon "certificate 2x inverse"
-        .image-text
-          %h2 Licensed & Insured
-          %p
-            ResTech is fully licensed and insured, so there is zero liability for homeowners.
-            any device.
-            %a{:href => "#"} Learn more&raquo;
-        .clear
+    .bannercontainer
+      .banner
+        .row
+          .col-sm-12.col-md-7
+            = image_tag "istock/plumber-at-work.jpg", alt: "Banner Image", class: "img-fullwidth thumbnail"
+          .col-sm-12.col-md-5
+            .grey-box.hero-block-2
+              %h1
+                THE TRUSTED PLUMBING EXPERTS
+              %p
+                = fa_icon "wrench 4x", class: "text-muted pull-left"
+                ResTech Plumbing and Drain is the #1 name in plumbing and drain services.
+                ou can rely on our plumbers for fast, expert service. 1-951-737-5800
+              = link_to contact_path, class: "btn btn-warning" do
+                Get a Free Quote
   .col-sm-12.col-md-12
     .horizontal-divider
-/ /
-/   MAIN CONTENT AREA: bizstrap CUSTOM - PORTFOLIO GRID BLOCK (ORIGINALLY
-/   DESIGNED FOR HOME PAGE)
-/ .portfolio-grid-1.main-block
-/   .title-wrapper
-/     %h2 Check out our awesome latest work
-/     %a.all{:href => "#"} Show all works&raquo;
-/   .clear-both
-/   #home_responsive.row.show-grid
-/     .col-sm-3.col-md-3.small.hp-wrapper
-/       %a.top-link.fancy{:href => "img/gal_2.jpg"}
-/         %img.img-responsive{:alt => "", :src => "img/item_220-160_08.jpg"}
-/       .bottom-block
-/         %a{:href => "#"} Integer posuere
-/         %p UI Design
-/     .col-sm-6.col-md-6.middle.hp-wrapper
-/       %a.top-link.fancy{:href => "img/img05.jpg"}
-/         %img.img-responsive{:alt => "", :src => "img/item_460-160_01.jpg", :style => "width: 460px; height: 160px;"}
-/       .bottom-block
-/         %a{:href => "#"} Pellen tesque ornare
-/         %p Graphic Design
-/     .col-sm-6.col-md-6.middle.hp-wrapper
-/       %a.top-link.fancy{:href => "img/img07.jpg"}
-/         %img.img-responsive{:alt => "", :src => "img/item_460-160_03.jpg", :style => "width: 460px; height: 160px;"}
-/       .bottom-block
-/         %a{:href => "#"} Pellen tesque ornare
-/         %p Graphic Design
-/     .col-sm-3.col-md-3.tall.hp-wrapper
-/       %a.top-link.fancy{:href => "img/img08.jpg"}
-/         %img.img-responsive{:alt => "", :src => "img/item_460-340_03.jpg", :style => "width: 220px; height: 340px;"}
-/       .bottom-block
-/         %a{:href => "#"} Pellen tesque ornare
-/         %p Graphic Design
-/     .col-sm-3.col-md-3.small.hp-wrapper
-/       %a.top-link.fancy{:href => "img/gal_7.jpg"}
-/         %img.img-responsive{:alt => "", :src => "img/item_220-160_01.jpg", :style => "width: 220px; height: 160px;"}
-/       .bottom-block
-/         %a{:href => "#"} Integer posuere
-/         %p UI Design
-/ %hr/
-/ /
-/   MAIN CONTENT AREA: bizstrap CUSTOM - HORIZONTAL TESTIMONIAL BLOCK
-/ .main-block.testimonials
-/   .title-wrapper
-/     %h2 Testimonials
-/     %a.all{:href => "#"} Show all Client Testimonials&raquo;
-/   .clear-both
-/   .row.show-grid
-/     .col-sm-12.col-sm-12.col-md-12
-/       .testimonials-block
-/         .quote
-/         %p.first-row
-/           Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-/           ut fermentum massa justo sit amet risus.
-/         %p Cras mattis consectetur purus sit amet fermentum.
-/         %p
-/         %p.autor Mr.Sam , Manager
-/   / MAIN CONTENT AREA: bizstrap CUSTOM - HERO BLOCK 3
-/   .col-sm-12.col-md-12.grey-box
-/     .hero-block3
-/       .row.show-grid
-/         .col-sm-9.col-md-9
-/           .hero-content-3
-/             %h2 Get your copy of bizstrap today!
-/             %p
-/               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero
-/               magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque
-/               viverra vehicula sem ut volutpat. Integer sed arcu massa.
-/         .col-sm-3.col-md-3
-/           .tour-btn.btn-default
-/             %a.btn.btn-warning{:href => "#"} Buy Now
-/ %hr/
+  .row.main-block.index1
+    .col-sm-12.col-md-12
+      / MAIN CONTENT AREA: bizstrap CUSTOM - HERO LIST
+      .row.show-grid.hero-list
+        .col-sm-3.col-md-3
+          .image-wrapper
+            .img
+              = fa_icon "exclamation-triangle 2x inverse"
+          .image-text
+            %h2 Emergency Service
+            %p
+              We can help when you need fast and reliable help in an emergency
+              %a{:href => "#"} Learn more&raquo;
+          .clear
+        .col-sm-3.col-md-3
+          .image-wrapper
+            .img
+              = fa_icon "clock-o 2x inverse"
+          .image-text
+            %h2 Available 24/7
+            %p
+              ResTech Plumbers are available to help day and night, 7 days a week.
+              %a{:href => "#"} Learn more&raquo;
+          .clear
+        .col-sm-3.col-md-3
+          .image-wrapper
+            .img
+              = fa_icon "thumbs-o-up 2x inverse"
+          .image-text
+            %h2 Trusted & Recommended
+            %p
+              ResTech comes
+              = link_to "highly recommended", "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "display-inline", target: '_blank'
+              by our customers
+              %a{:href => "#"} Learn more&raquo;
+          .clear
+        .col-sm-3.col-md-3
+          .image-wrapper
+            .img
+              = fa_icon "certificate 2x inverse"
+          .image-text
+            %h2 Licensed & Insured
+            %p
+              ResTech is fully licensed and insured, so there is zero liability for homeowners.
+              any device.
+              %a{:href => "#"} Learn more&raquo;
+          .clear
+    .col-sm-12.col-md-12
+      .horizontal-divider
+  / /
+  /   MAIN CONTENT AREA: bizstrap CUSTOM - PORTFOLIO GRID BLOCK (ORIGINALLY
+  /   DESIGNED FOR HOME PAGE)
+  / .portfolio-grid-1.main-block
+  /   .title-wrapper
+  /     %h2 Check out our awesome latest work
+  /     %a.all{:href => "#"} Show all works&raquo;
+  /   .clear-both
+  /   #home_responsive.row.show-grid
+  /     .col-sm-3.col-md-3.small.hp-wrapper
+  /       %a.top-link.fancy{:href => "img/gal_2.jpg"}
+  /         %img.img-responsive{:alt => "", :src => "img/item_220-160_08.jpg"}
+  /       .bottom-block
+  /         %a{:href => "#"} Integer posuere
+  /         %p UI Design
+  /     .col-sm-6.col-md-6.middle.hp-wrapper
+  /       %a.top-link.fancy{:href => "img/img05.jpg"}
+  /         %img.img-responsive{:alt => "", :src => "img/item_460-160_01.jpg", :style => "width: 460px; height: 160px;"}
+  /       .bottom-block
+  /         %a{:href => "#"} Pellen tesque ornare
+  /         %p Graphic Design
+  /     .col-sm-6.col-md-6.middle.hp-wrapper
+  /       %a.top-link.fancy{:href => "img/img07.jpg"}
+  /         %img.img-responsive{:alt => "", :src => "img/item_460-160_03.jpg", :style => "width: 460px; height: 160px;"}
+  /       .bottom-block
+  /         %a{:href => "#"} Pellen tesque ornare
+  /         %p Graphic Design
+  /     .col-sm-3.col-md-3.tall.hp-wrapper
+  /       %a.top-link.fancy{:href => "img/img08.jpg"}
+  /         %img.img-responsive{:alt => "", :src => "img/item_460-340_03.jpg", :style => "width: 220px; height: 340px;"}
+  /       .bottom-block
+  /         %a{:href => "#"} Pellen tesque ornare
+  /         %p Graphic Design
+  /     .col-sm-3.col-md-3.small.hp-wrapper
+  /       %a.top-link.fancy{:href => "img/gal_7.jpg"}
+  /         %img.img-responsive{:alt => "", :src => "img/item_220-160_01.jpg", :style => "width: 220px; height: 160px;"}
+  /       .bottom-block
+  /         %a{:href => "#"} Integer posuere
+  /         %p UI Design
+  / %hr/
+  / /
+  /   MAIN CONTENT AREA: bizstrap CUSTOM - HORIZONTAL TESTIMONIAL BLOCK
+  / .main-block.testimonials
+  /   .title-wrapper
+  /     %h2 Testimonials
+  /     %a.all{:href => "#"} Show all Client Testimonials&raquo;
+  /   .clear-both
+  /   .row.show-grid
+  /     .col-sm-12.col-sm-12.col-md-12
+  /       .testimonials-block
+  /         .quote
+  /         %p.first-row
+  /           Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+  /           ut fermentum massa justo sit amet risus.
+  /         %p Cras mattis consectetur purus sit amet fermentum.
+  /         %p
+  /         %p.autor Mr.Sam , Manager
+  /   / MAIN CONTENT AREA: bizstrap CUSTOM - HERO BLOCK 3
+  /   .col-sm-12.col-md-12.grey-box
+  /     .hero-block3
+  /       .row.show-grid
+  /         .col-sm-9.col-md-9
+  /           .hero-content-3
+  /             %h2 Get your copy of bizstrap today!
+  /             %p
+  /               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero
+  /               magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque
+  /               viverra vehicula sem ut volutpat. Integer sed arcu massa.
+  /         .col-sm-3.col-md-3
+  /           .tour-btn.btn-default
+  /             %a.btn.btn-warning{:href => "#"} Buy Now
+  / %hr/
 
-/ %hr/
-/ / MAIN CONTENT AREA: bizstrap CUSTOM - CLIENTS LOGO BAR
-/ .main-block.clients
-/   .title-wrapper
-/     %h2 Clients
-/   .row.show-grid
-/     .col-sm-12.col-md-12
-/       #clients.row.show-grid
-/         .col-sm-2.col-md-2.clear-both.hp-wrapper
-/           %img.img-responsive{:alt => "", :src => "img/client1.jpg"}
-/         .col-sm-2.col-md-2.hp-wrapper
-/           %img.img-responsive{:alt => "", :src => "img/client2.jpg"}
-/         .col-sm-2.col-md-2.hp-wrapper
-/           %img.img-responsive{:alt => "", :src => "img/client3.jpg"}
-/         .col-sm-2.col-md-2.hp-wrapper
-/           %img.img-responsive{:alt => "", :src => "img/client4.jpg"}
-/         .col-sm-2.col-md-2.hp-wrapper
-/           %img.img-responsive{:alt => "", :src => "img/client5.jpg"}
-/         .col-sm-2.col-md-2.hp-wrapper
-/           %img.img-responsive{:alt => "", :src => "img/client6.jpg"}
+  / %hr/
+  / / MAIN CONTENT AREA: bizstrap CUSTOM - CLIENTS LOGO BAR
+  / .main-block.clients
+  /   .title-wrapper
+  /     %h2 Clients
+  /   .row.show-grid
+  /     .col-sm-12.col-md-12
+  /       #clients.row.show-grid
+  /         .col-sm-2.col-md-2.clear-both.hp-wrapper
+  /           %img.img-responsive{:alt => "", :src => "img/client1.jpg"}
+  /         .col-sm-2.col-md-2.hp-wrapper
+  /           %img.img-responsive{:alt => "", :src => "img/client2.jpg"}
+  /         .col-sm-2.col-md-2.hp-wrapper
+  /           %img.img-responsive{:alt => "", :src => "img/client3.jpg"}
+  /         .col-sm-2.col-md-2.hp-wrapper
+  /           %img.img-responsive{:alt => "", :src => "img/client4.jpg"}
+  /         .col-sm-2.col-md-2.hp-wrapper
+  /           %img.img-responsive{:alt => "", :src => "img/client5.jpg"}
+  /         .col-sm-2.col-md-2.hp-wrapper
+  /           %img.img-responsive{:alt => "", :src => "img/client6.jpg"}
 
-/ .main-block
-/   .col-sm-12.col-md-12
-/     .row
-/       / MAIN CONTENT AREA: REDESIGN CUSTOM - HERO BLOCK 1 (TEXT BLOCK)]
-/       .col-sm-6.col-md-6.home-block.hero-block-1
-/         %h1 Say hello to bizstrap!
-/         %h2 Clean, modern &amp; ultra-responsive
-/         %p
-/           bizstrap is a clean, modern and ultra-responsive site template designed
-/           and built from the ground up using the latest and greatest web technologies
-/           and framework. And, with over 30 stunning and highly useful feature shortcuts
-/           and rapid-design page templates you can effortlessly turn your organization’s
-/           website into a stunning product and/or services showcase that you’ll not
-/           only be proud of, but your customers will greatly respect. Affordable,
-/           effective and easy-to-use bizstrap is the smart choice for building and
-/           managing your business website. Smart, very smart indeed!
-/       /
-/         MAIN CONTENT AREA: SPACER BETWEEN HERO BLOCK 1 AND HEREO BLOCK 2
-/       .col-sm-1.col-md-1
-/       / MAIN CONTENT AREA: bizstrap CUSTOM - HERO BLOCK 2
-/       .col-sm-5.col-md-5.home-block
-/         .grey-box.hero-block-2
-/           %h2
-/             %a{:href => "#"} Effective Action Boxes That Get Results
-/           %p
-/             %img.img-responsive{:alt => "", :src => "img/release_icon.png"}
-/             Great web pages utilize effective calls to action to grab the attention
-/             of the intended audience. bizstrap allows you to quickly and easily create
-/             highly effective action boxes.
-/           = link_to contact_path, class: "btn btn-warning" do
-/             %i.icon-shopping-cart
-/             Get a Free Quote
+  / .main-block
+  /   .col-sm-12.col-md-12
+  /     .row
+  /       / MAIN CONTENT AREA: REDESIGN CUSTOM - HERO BLOCK 1 (TEXT BLOCK)]
+  /       .col-sm-6.col-md-6.home-block.hero-block-1
+  /         %h1 Say hello to bizstrap!
+  /         %h2 Clean, modern &amp; ultra-responsive
+  /         %p
+  /           bizstrap is a clean, modern and ultra-responsive site template designed
+  /           and built from the ground up using the latest and greatest web technologies
+  /           and framework. And, with over 30 stunning and highly useful feature shortcuts
+  /           and rapid-design page templates you can effortlessly turn your organization’s
+  /           website into a stunning product and/or services showcase that you’ll not
+  /           only be proud of, but your customers will greatly respect. Affordable,
+  /           effective and easy-to-use bizstrap is the smart choice for building and
+  /           managing your business website. Smart, very smart indeed!
+  /       /
+  /         MAIN CONTENT AREA: SPACER BETWEEN HERO BLOCK 1 AND HEREO BLOCK 2
+  /       .col-sm-1.col-md-1
+  /       / MAIN CONTENT AREA: bizstrap CUSTOM - HERO BLOCK 2
+  /       .col-sm-5.col-md-5.home-block
+  /         .grey-box.hero-block-2
+  /           %h2
+  /             %a{:href => "#"} Effective Action Boxes That Get Results
+  /           %p
+  /             %img.img-responsive{:alt => "", :src => "img/release_icon.png"}
+  /             Great web pages utilize effective calls to action to grab the attention
+  /             of the intended audience. bizstrap allows you to quickly and easily create
+  /             highly effective action boxes.
+  /           = link_to contact_path, class: "btn btn-warning" do
+  /             %i.icon-shopping-cart
+  /             Get a Free Quote
 
-/
-  MAIN CONTENT AREA: bizstrap CUSTOM - RECENT POSTS BLOACK (ORIGINALLY
-  DESIGNED FOR HOME PAGE)
-/ .main-block.block-posts
-/   .title-wrapper
-/     %h2 Recent Posts
-/     %a.all{:href => "#"} Visit the full blog&raquo;
-/   .row.show-grid.clear-both
-/     .col-sm-12.col-md-12
-/       .row.show-grid
-/         .col-sm-3.col-md-3
-/           %a.block-post-img{:href => "#"}
-/             %img.img-rounded.img-responsive{:alt => "", :src => "img/block_post_img1.jpg"}
-/           %a.block-post-title{:href => "#"} Time Management for Designers
-/           %p.block-post-date July 25, 2012
-/           %p.block-post-content
-/             Ut non libero magna. Sed et quam lacus. Fusce condimentum eleifend enim
-/             a feugiat. Pellentesque viverra vehicula sem ut volutpat.
-/           %a.block-post-more{:href => "#"} Read more&raquo;
-/         .col-sm-3.col-md-3
-/           %a.block-post-img{:href => "#"}
-/             %img.img-rounded.img-responsive{:alt => "", :src => "img/block_post_img2.jpg"}
-/           %a.block-post-title{:href => "#"} Designing for Mobile Devices
-/           %p.block-post-date July 15, 2012
-/           %p.block-post-content
-/             Ut non libero magna. Sed et quam lacus. Fusce condimentum eleifend enim
-/             a feugiat. Pellentesque viverra vehicula sem ut volutpat.
-/           %a.block-post-more{:href => "#"} Read more&raquo;
-/         .col-sm-3.col-md-3
-/           %a.block-post-img{:href => "#"}
-/             %img.img-rounded.img-responsive{:alt => "", :src => "img/block_post_img3.jpg"}
-/           %a.block-post-title{:href => "#"} What's New in Silicon Valley
-/           %p.block-post-date July 10, 2012
-/           %p.block-post-content
-/             Ut non libero magna. Sed et quam lacus. Fusce condimentum eleifend enim
-/             a feugiat. Pellentesque viverra vehicula sem ut volutpat.
-/           %a.block-post-more{:href => "#"} Read more&raquo;
-/         .col-sm-3.col-md-3.last
-/           %a.block-post-img{:href => "#"}
-/             %img.img-rounded.img-responsive{:alt => "", :src => "img/block_post_img4.jpg"}
-/           %a.block-post-title{:href => "#"} Effective SEO for Site Managers
-/           %p.block-post-date July 8, 2012
-/           %p.block-post-content
-/             Ut non libero magna. Sed et quam lacus. Fusce condimentum eleifend enim
-/             a feugiat. Pellentesque viverra vehicula sem ut volutpat.
-/           %a.block-post-more{:href => "#"} Read more&raquo;
+  /
+    MAIN CONTENT AREA: bizstrap CUSTOM - RECENT POSTS BLOACK (ORIGINALLY
+    DESIGNED FOR HOME PAGE)
+  / .main-block.block-posts
+  /   .title-wrapper
+  /     %h2 Recent Posts
+  /     %a.all{:href => "#"} Visit the full blog&raquo;
+  /   .row.show-grid.clear-both
+  /     .col-sm-12.col-md-12
+  /       .row.show-grid
+  /         .col-sm-3.col-md-3
+  /           %a.block-post-img{:href => "#"}
+  /             %img.img-rounded.img-responsive{:alt => "", :src => "img/block_post_img1.jpg"}
+  /           %a.block-post-title{:href => "#"} Time Management for Designers
+  /           %p.block-post-date July 25, 2012
+  /           %p.block-post-content
+  /             Ut non libero magna. Sed et quam lacus. Fusce condimentum eleifend enim
+  /             a feugiat. Pellentesque viverra vehicula sem ut volutpat.
+  /           %a.block-post-more{:href => "#"} Read more&raquo;
+  /         .col-sm-3.col-md-3
+  /           %a.block-post-img{:href => "#"}
+  /             %img.img-rounded.img-responsive{:alt => "", :src => "img/block_post_img2.jpg"}
+  /           %a.block-post-title{:href => "#"} Designing for Mobile Devices
+  /           %p.block-post-date July 15, 2012
+  /           %p.block-post-content
+  /             Ut non libero magna. Sed et quam lacus. Fusce condimentum eleifend enim
+  /             a feugiat. Pellentesque viverra vehicula sem ut volutpat.
+  /           %a.block-post-more{:href => "#"} Read more&raquo;
+  /         .col-sm-3.col-md-3
+  /           %a.block-post-img{:href => "#"}
+  /             %img.img-rounded.img-responsive{:alt => "", :src => "img/block_post_img3.jpg"}
+  /           %a.block-post-title{:href => "#"} What's New in Silicon Valley
+  /           %p.block-post-date July 10, 2012
+  /           %p.block-post-content
+  /             Ut non libero magna. Sed et quam lacus. Fusce condimentum eleifend enim
+  /             a feugiat. Pellentesque viverra vehicula sem ut volutpat.
+  /           %a.block-post-more{:href => "#"} Read more&raquo;
+  /         .col-sm-3.col-md-3.last
+  /           %a.block-post-img{:href => "#"}
+  /             %img.img-rounded.img-responsive{:alt => "", :src => "img/block_post_img4.jpg"}
+  /           %a.block-post-title{:href => "#"} Effective SEO for Site Managers
+  /           %p.block-post-date July 8, 2012
+  /           %p.block-post-content
+  /             Ut non libero magna. Sed et quam lacus. Fusce condimentum eleifend enim
+  /             a feugiat. Pellentesque viverra vehicula sem ut volutpat.
+  /           %a.block-post-more{:href => "#"} Read more&raquo;
