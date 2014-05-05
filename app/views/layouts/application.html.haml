@@ -14,8 +14,7 @@
         = render 'layouts/header'
         %main.main-content{:role => "main"}
           .container
-            .row
-              = render 'layouts/messages'
-              = yield
+            = render 'layouts/messages'
+            = yield
           = render 'layouts/recent_tweets'
         = render 'layouts/footer'
