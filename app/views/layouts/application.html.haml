@@ -13,7 +13,9 @@
       #out_container.boxed-attached
         = render 'layouts/header'
         %main.main-content{:role => "main"}
-          = render 'layouts/messages'
-          = yield
+          .container
+            .row
+              = render 'layouts/messages'
+              = yield
           = render 'layouts/recent_tweets'
         = render 'layouts/footer'
