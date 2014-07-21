@@ -5,6 +5,9 @@ class HomePagesController < ApplicationController
   def about
   end
 
+  def plumbing
+  end
+
   def residential
   end
 
@@ -12,9 +15,6 @@ class HomePagesController < ApplicationController
   end
 
   def products
-  end
-
-  def plumbing
   end
 
   def contact
