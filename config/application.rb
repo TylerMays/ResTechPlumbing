@@ -33,6 +33,6 @@ module ResTechPlumbing
     # config.i18n.default_locale = :de
 
     # For Heroku
-    config.serve_static_assets = true
+    config.serve_static_files = true
   end
 end
