@@ -66,17 +66,17 @@ a {
 
 #header {
   margin-bottom: 40px;
-  border-top: 5px solid #648798;
+  border-top: 5px solid #001957;
   .top .in {
     padding: 15px 0;
     .main_header {
       text-align: center;
       font-size: 50px;
-      color: #648798;
+      color: #001957;
       span {
         display: inline-block;
         font-size: 46px;
-        background: #648798;
+        background: #001957;
         line-height: 50px;
         height: 58px;
         border-radius: 5px;
@@ -87,7 +87,7 @@ a {
     }
   }
   .bottom {
-    background: #648798;
+    background: #001957;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.33);
     .in {
       padding: 8px 0 7px;
@@ -200,7 +200,7 @@ a {
     }
     &:hover:after {
       border: 0;
-      background: #648798;
+      background: #001957;
     }
     &:last-child:hover:after {
       background: url(../img/line.png) repeat-x;
@@ -226,7 +226,7 @@ a {
 }
 
 #footer {
-  background: #648798;
+  background: #001957;
   .in {
     padding: 37px 0;
     .copyright {

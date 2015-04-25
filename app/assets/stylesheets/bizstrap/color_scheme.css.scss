@@ -2,16 +2,16 @@
 ---------------------------------------------------------------------- */
 
 .top_line {
-  background-color: #648798;
+  background-color: #001957;
 }
 
 /* Color that link text will appear as
 ---------------------------------------------------------------------- */
 
 a {
-  color: #648798;
+  color: #001957;
   &:hover {
-    color: #648798;
+    color: #001957;
   }
 }
 
@@ -23,22 +23,22 @@ a {
 
 .navbar .nav {
   .open .dropdown-menu .active a {
-    color: #648798;
+    color: #001957;
     &:hover {
-      color: #648798;
+      color: #001957;
     }
   }
   .active {
     > a, a > i {
-      color: #648798;
+      color: #001957;
       &:hover {
-        color: #648798;
+        color: #001957;
       }
     }
   }
   li.dropdown {
     &.open > .dropdown-toggle, &.active > .dropdown-toggle, &.open.active > .dropdown-toggle {
-      color: #648798;
+      color: #001957;
     }
   }
   > li {
@@ -46,17 +46,17 @@ a {
       background-color: #292929;
       background-image: none !important;
       filter: none;
-      color: #648798;
+      color: #001957;
     }
     &:hover a {
-      color: #648798;
+      color: #001957;
       i {
-        color: #648798;
+        color: #001957;
       }
     }
   }
   .active > a, li:hover > a {
-    border-top: 3px solid #648798;
+    border-top: 3px solid #001957;
   }
 }
 
@@ -85,7 +85,7 @@ a {
 ---------------------------------------------------------------------- */
 
 .recent-tweets {
-  background-color: #648798;
+  background-color: #001957;
 }
 
 /* Color of First and Last Name on blog comments
@@ -93,7 +93,7 @@ a {
 
 .comments {
   .name, h2 {
-    color: #648798;
+    color: #001957;
   }
 }
 
@@ -104,7 +104,7 @@ a {
 ---------------------------------------------------------------------- */
 
 .dropcap-theme {
-  color: #648798;
+  color: #001957;
 }
 
 /* Color of table headers in non-highlighted price tables
@@ -112,10 +112,10 @@ a {
 
 .dif-table {
   .title {
-    background-color: #648798;
+    background-color: #001957;
   }
   .cost {
-    color: #648798;
+    color: #001957;
   }
 }
 
@@ -126,7 +126,7 @@ a {
 ---------------------------------------------------------------------- */
 
 .text-divider5 span, .text-divider6 span {
-  background-color: #648798;
+  background-color: #001957;
 }
 
 /* Color tab on text divider 6
@@ -137,7 +137,7 @@ a {
 
 .portfolio-slider #carousel .slides li {
   &:hover, &.flex-active-slide {
-    border: 2px solid #648798;
+    border: 2px solid #001957;
   }
 }
 
@@ -148,16 +148,16 @@ a {
 ---------------------------------------------------------------------- */
 
 .buttons-container {
-  background-color: #648798;
+  background-color: #001957;
 }
 
 /* Color of active nav filter on portfolio and portfolio grid pages
 ---------------------------------------------------------------------- */
 
 .nav-pills > .active > a {
-  background-color: #648798;
+  background-color: #001957;
   &:hover {
-    background-color: #648798;
+    background-color: #001957;
   }
 }
 
@@ -183,7 +183,7 @@ a {
     background-position: 0 -31px;
     background-color: #cccccc;
     &:hover {
-      background-color: #648798;
+      background-color: #001957;
       background-position: 0 -31px;
     }
     &.active {
@@ -194,18 +194,18 @@ a {
     background-position: 0 0;
     background-color: #cccccc;
     &:hover {
-      background-color: #648798;
+      background-color: #001957;
       background-position: 0 0;
     }
   }
   a.active {
-    background-color: #648798;
+    background-color: #001957;
   }
 }
 
 .fancy-wrapper .fancy {
   /* background: url("../img/home_portfolio_hover_orange.png") no-repeat scroll center center transparent; */
-  background-color: #648798;
+  background-color: #001957;
   &:after {
     content: "\f067";
     position: absolute;
@@ -230,21 +230,21 @@ a {
     bottom: 0;
     left: 50%;
     margin-left: -5px;
-    background: #648798;
+    background: #001957;
   }
   .bottom-block {
     border-bottom: 1px solid transparent;
   }
   &:hover {
     .bottom-block {
-      border-bottom: 1px solid #648798;
+      border-bottom: 1px solid #001957;
     }
-    border-bottom: 1px solid #648798;
+    border-bottom: 1px solid #001957;
   }
 }
 
 /*.portfolio-grid-1:hover .small .bottom-block, .portfolio-grid-1:hover .middle .bottom-block, .portfolio-grid-1:hover .tall .bottom-block {
-    border-bottom: 1px solid #648798;
+    border-bottom: 1px solid #001957;
 }*/
 
 a.cs-logo {

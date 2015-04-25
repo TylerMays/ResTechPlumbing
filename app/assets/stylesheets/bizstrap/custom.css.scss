@@ -699,8 +699,8 @@
     padding: 0 20px;
     &.boxed, &.boxed-attached {
       width: auto;
-      margin-left: 20px;
-      margin-right: 20px;
+/*      margin-left: 20px;
+      margin-right: 20px;*/
     }
   }
   .sidebar {
@@ -1847,7 +1847,7 @@ input.btn {
       vertical-align: middle;
       border-radius: 33px;
       text-align: center;
-      background: #648798;
+      background: #001957;
     }
   }
 }
@@ -1968,7 +1968,7 @@ input.btn {
         font-size: 60px;
         line-height: 60px;
         text-align: center;
-        color: #648798;
+        color: #001957;
         display: none;
       }
     }
@@ -3185,7 +3185,7 @@ div.alert {
     line-height: 1.333;
     margin-bottom: 0;
     span {
-      color: #648798;
+      color: #001957;
     }
   }
   ul {
@@ -3254,7 +3254,7 @@ Inherited from li .features-block ul li {
     margin-right: 25px;
     width: 62px;
     height: 70px;
-    background: #648798;
+    background: #001957;
     position: relative;
     &:before {
       position: absolute;
@@ -3321,7 +3321,7 @@ Inherited from li .features-block ul li {
 }
 
 blockquote.greyb {
-  border-left: 10px solid #648798;
+  border-left: 10px solid #001957;
   background: none;
   border-top: none;
   border-right: none;
@@ -3334,7 +3334,7 @@ blockquote.greyb {
     font-size: 13px;
     color: #3c92cd;
     font-size: 13px;
-    color: #648798;
+    color: #001957;
   }
 }
 
@@ -3385,7 +3385,7 @@ blockquote.greyb {
 
 blockquote {
   &.blueb {
-    border-left: 10px solid #648798;
+    border-left: 10px solid #001957;
     border-top: none;
     border-right: none;
     border-bottom: none;
@@ -3402,7 +3402,7 @@ blockquote {
     left: 8px;
     top: 10px;
     font-size: 60px;
-    color: #648798;
+    color: #001957;
   }
 }
 
@@ -3423,7 +3423,7 @@ blockquote {
     font-size: 20px;
     padding: 0 30px;
     a {
-      color: #648798;
+      color: #001957;
     }
   }
 }
@@ -3451,7 +3451,7 @@ blockquote {
     font-weight: 600;
   }
   .all {
-    color: #648798;
+    color: #001957;
     font-size: 14px;
     float: right;
     line-height: 17px;
@@ -3530,9 +3530,9 @@ a.cs-logo {
     margin: 40px 0;
     line-height: 80px;
   }
-  background-color: #648798;
+  background-color: #001957;
   border-bottom: 1px solid #FFFFFF;
-  border-top: 1px solid #648798;
+  border-top: 1px solid #001957;
   text-align: center;
 }
 
@@ -3664,7 +3664,7 @@ hr {
 }
 
 .footer-bottom {
-  background-color: #333333;
+  background-color: #001957;
 }
 
 .footer-logo {
@@ -3676,7 +3676,7 @@ hr {
     padding-left: 15px;
     p {
       margin-bottom: 5px;
-      color: #cbcbcb;
+      color: #FFF;
       padding: 0;
       i {
         display: block;
@@ -3707,7 +3707,7 @@ hr {
 }
 
 .footer-center p {
-  color: #cbcbcb;
+  color: #FFF;
   padding: 12px 0 0;
 }
 

@@ -19,8 +19,14 @@
  */
 
 .background-pattern {
-  background-image: image-url('patterns/pattern_15.png');
+  background-image: image-url('patterns/pattern_11.png');
   min-height: 100%;
+}
+
+.logo {
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*p {
