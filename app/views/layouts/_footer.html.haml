@@ -11,12 +11,12 @@
               /= image_tag "logo-bw.png", class: "footer-logo img-responsive"
               / FOOTER: ADDRESS
               %address.address
-                %p
-                  = fa_icon "map-marker 2x"
-                  3845 Pedley Ave
-                %p
-                  %i &nbsp;
-                  Norco, CA 92860
+                / %p
+                /   = fa_icon "map-marker 2x"
+                /   3845 Pedley Ave
+                / %p
+                /   %i &nbsp;
+                /   Norco, CA 92860
                 %p
                   = fa_icon "phone 2x"
                   Phone: (951) 737-5800
@@ -27,10 +27,10 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero
                 magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque
                 viverra vehicula sem ut volutpat.
-              %p
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero
-                magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque
-                viverra vehicula sem ut volutpat.
+              / %p
+              /   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero
+              /   magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque
+              /   viverra vehicula sem ut volutpat.
             / FOOTER: NAVIGATION LINKS
             .col-sm-4.col-md-4.footer-right
               %h4.center-title Navigate
@@ -47,12 +47,13 @@
                   = link_to "Products", products_path
                 %li
                   = link_to "Contact", contact_path
+  .footer-top
   .footer-bottom
     .container
       .row.show-grid
         / FOOTER: COPYRIGHT TEXT
-        .col-sm-12.col-md-12
+        .col-sm-12.col-md-12.text-center
           %p
             ©
-            = link_to 'ResTech Plumbing', root_path
+            = link_to 'ResTech Plumbing and Drains', root_path
             #{Time.now.year}
