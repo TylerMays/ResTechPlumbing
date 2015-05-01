@@ -1,0 +1,61 @@
+ / OLD HEADER REVIEWS 
+      / .col-sm-4.col-md-4
+      /   .row
+      /     %i.pull-right.muted Check out our reviews on:
+      /   .row
+      /     .col-md-5 
+      /       = link_to "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "pull-right logo", target: "_blank" do
+      /         = image_tag("yelp_svg.svg", alt: "ResTech Yelp Page", title: "ResTech Yelp Page", class: "pull-right clear-both")
+      /     .col-md-5.col-md-offset-1
+      /       = link_to "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "pull-right logo", target: "_blank" do
+      /         .pull-right.clear-both{ alt: "ResTech Yelp Page", title: "ResTech Yelp Page" }
+      /           = render "layouts/yelp_svg"
+      /     .col-md-5 
+      /       = link_to "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "pull-right logo", target: "_blank" do
+      /         = image_tag("yp-logo.png", alt: "ResTech YP Page", title: "ResTech YP Page", width: "120px", class: "pull-right clear-both")
+
+        / OLD YELP HEADER
+        / = link_to "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "pull-right logo", target: "_blank" do
+        /   %i.pull-right.muted Check out our reviews on:
+        /   = image_tag("yelp-logo.png", alt: "ResTech Yelp Page", title: "ResTech Yelp Page", width: "120px", class: "pull-right clear-both")
+
+
+
+
+
+
+      / HEADER w/ YELP SVG
+      / .col-sm-4.col-md-4
+      /   .row
+      /     %i.pull-right.muted Check out our reviews on:
+      /   .row
+      /     .col-md-5 
+      /       = link_to "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "pull-right logo", target: "_blank" do
+      /         = image_tag("yelp_svg.svg", alt: "ResTech YP Page", title: "ResTech YP Page", width: "120px", class: "pull-right clear-both")
+      /     / .col-md-5.col-md-offset-1
+      /     /   = link_to "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "pull-right logo", target: "_blank" do
+      /     /     .pull-right.clear-both{ alt: "ResTech Yelp Page", title: "ResTech Yelp Page" }
+      /     /       = render "layouts/yelp_svg"
+      /     .col-md-5 
+      /       = link_to "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "pull-right logo", target: "_blank" do
+      /         = image_tag("yp-logo.png", alt: "ResTech YP Page", title: "ResTech YP Page", width: "120px", class: "pull-right clear-both")
+
+
+      / HEADER: SOCIAL ICONS
+      / %ul.socials.unstyled
+      /   %li
+      /     %a.flickr{:href => "#"}
+      /   %li
+      /     %a.twitter{:href => "#"}
+      /   %li
+      /     %a.facebook{:href => "#"}
+      /   %li
+      /     %a.youtube{:href => "#"}
+      /   %li
+      /     %a.dribbble{:href => "#"}
+      /   %li
+      /     %a.pinterest{:href => "#"}
+      /   %li
+      /     %a.linkedin{:href => "#"}
+      /   %li
+      /     %a.google_plus{:href => "#"}
