@@ -142,19 +142,19 @@ jQuery(document).ready(function($) {
 	 *                      
 	 * Select menu will be inserted in block with selector .buttons-container that should be present in the html code of the page
 	 */                     
-    var select_menu = '<select class="nav-select">';
-    $(".navbar-collapse a").each(function() {
-        var el = $(this);   
-        select_menu += '<option value="'+el.attr("href")+'"';
-        if (el.parent().hasClass("active")) select_menu += ' selected';
-        select_menu += '>'+el.html().replace(/<i>.*<\/i>/gi,'')+'</option>';
-    });                     
-    select_menu += '</select>';
-    $(select_menu).appendTo(".buttons-container");
-    // to work select element as menu, go to the next page on change
-    $(".buttons-container select").change(function() {
-        window.location = $(this).find("option:selected").val();
-    });                     
+    // var select_menu = '<select class="nav-select">';
+    // $(".navbar-collapse a").each(function() {
+    //     var el = $(this);   
+    //     select_menu += '<option value="'+el.attr("href")+'"';
+    //     if (el.parent().hasClass("active")) select_menu += ' selected';
+    //     select_menu += '>'+el.html().replace(/<i>.*<\/i>/gi,'')+'</option>';
+    // });                     
+    // select_menu += '</select>';
+    // $(select_menu).appendTo(".buttons-container");
+    // // to work select element as menu, go to the next page on change
+    // $(".buttons-container select").change(function() {
+    //     window.location = $(this).find("option:selected").val();
+    // });                     
 	                        
     /**                     
 	 * get twitter feed and output to the "list" tag in <div class="tweets-slide"><ul class="slides"></ul></div>
@@ -224,30 +224,30 @@ jQuery(document).ready(function($) {
     });                     
 });                         
 
-jQuery(window).load(function(){
-    // Home page 
-    jQuery('#home_responsive').isotope({
-        itemSelector: '.hp-wrapper',
-        layoutMode: 'masonry'
-    });
-    // Clients block at the bottom of each page
-    jQuery('#clients').isotope({
-        itemSelector: '.hp-wrapper',
-        layoutMode: 'masonry'
-    });
-    // Gallery page
-    jQuery('#gallery-main').isotope({
-        itemSelector: '.hp-wrapper',
-        layoutMode: 'masonry'
-    });
-    // Portfolio page
-    jQuery('#portfolio').isotope({
-        itemSelector: '.hp-wrapper',
-        layoutMode: 'masonry'
-    });
-    // Portfolio Grid page
-    jQuery('#gallery').isotope({
-        itemSelector: '.hp-wrapper',
-        layoutMode: 'masonry'
-    });
-})
+// jQuery(window).load(function(){
+//     // Home page 
+//     jQuery('#home_responsive').isotope({
+//         itemSelector: '.hp-wrapper',
+//         layoutMode: 'masonry'
+//     });
+//     // Clients block at the bottom of each page
+//     jQuery('#clients').isotope({
+//         itemSelector: '.hp-wrapper',
+//         layoutMode: 'masonry'
+//     });
+//     // Gallery page
+//     jQuery('#gallery-main').isotope({
+//         itemSelector: '.hp-wrapper',
+//         layoutMode: 'masonry'
+//     });
+//     // Portfolio page
+//     jQuery('#portfolio').isotope({
+//         itemSelector: '.hp-wrapper',
+//         layoutMode: 'masonry'
+//     });
+//     // Portfolio Grid page
+//     jQuery('#gallery').isotope({
+//         itemSelector: '.hp-wrapper',
+//         layoutMode: 'masonry'
+//     });
+// })
