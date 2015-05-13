@@ -36,3 +36,55 @@ body p {
 /*p {
 	font-size: 1.2em;
 }*/
+
+
+
+#nav-wrapper {
+	/*.navbar {
+		background: #001957;
+	}*/
+
+	.navbar-toggle {
+	  float: none;
+	  margin: 0 auto;
+	  background-color: #001957;
+	  border: none;
+
+	  .icon-bar {
+	  	color: #FFF;
+	  	width: 24px;
+	  	height: 4px;
+	  }
+  
+	  @media (max-width: 991px) {
+	  	display: block;
+	  }
+	}
+
+
+	@media (max-width: 991px) {
+				background-color: #001957;
+	}
+
+	@media (max-width: 767px) {
+
+		padding: 4px 0;
+		margin: 0 -20px 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
