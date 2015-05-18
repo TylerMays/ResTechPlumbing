@@ -16,6 +16,5 @@
 //= require turbolinks
 //= require bootstrap
 //= require jquery.flexslider-min
-//= require fancybox
 //= require_tree ./bizstrap
 //= require_tree ./scripts
