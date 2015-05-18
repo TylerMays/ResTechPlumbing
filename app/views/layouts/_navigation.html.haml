@@ -1,15 +1,15 @@
 / navigation styled for Bootstrap 3.0
 #nav-wrapper
-  .container
-    %nav.navbar.navbar-default
-      .navbar-header
-        %button.navbar-toggle{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}
-          %span.sr-only Toggle navigation
-          %span.icon-bar
-          %span.icon-bar
-          %span.icon-bar
-        %ul.nav.nav-pills.collapse.navbar-collapse.clear.nav-justified
-          = render 'layouts/navigation_links'
+  / .container
+  %nav.navbar.navbar-default
+    .navbar-header
+      %button.navbar-toggle{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %ul.nav.collapse.navbar-collapse.clear.nav-justified
+        = render 'layouts/navigation_links'
 
 
 /  the class buttons-container provides background-color but is hidden at LG screens

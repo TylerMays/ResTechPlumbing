@@ -132,8 +132,8 @@
     padding-left: 10px;
   }
   .navbar {
-    border-top: 1px solid #CCC;
-    border-bottom: 1px solid #CCC;
+    border-top: 2px solid #898989;
+    border-bottom: 2px solid #898989;
     border-right: none;
     border-left: none;
   }
@@ -1388,6 +1388,9 @@ p {
   margin: 0;
   line-height: 18px;
   padding: 0 0 20px;
+  .head_phone & {
+    padding: 0 0 10px;
+  }
 }
 
 .team-member p, .two-col-team p {
@@ -1595,7 +1598,7 @@ ul.icons {
   color: #666666;
   font-family: 'Open Sans',Arial,sans-serif;
   font-size: 18px;
-  margin-top: 25px;
+  margin-top: 20px;
   padding-bottom: 0;
 }
 
@@ -3712,7 +3715,7 @@ hr {
 }
 
 .footer-top {
-  height: 4px;
+  height: 2px;
   background-color: #898989;
 }
 
