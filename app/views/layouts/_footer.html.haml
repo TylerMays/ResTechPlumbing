@@ -1,16 +1,43 @@
 %footer#footer
-  .footer-top
+  / .footer-top
   .footer-wrapper
     .container
       .row.show-grid
         .col-sm-12.col-md-12
           .row.show-grid
-            / FOOTER: LOGO
-            .col-sm-4.col-md-4
-              / .row
 
-              = link_to "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "logo", target: "_blank" do
-                = image_tag("yelp-svg.svg", alt: "ResTech Yelp Page", title: "ResTech Yelp Page", class: "")
+
+            / FOOTER: ABOUT US
+            .col-sm-4.col-sm-offset-1.footer-center
+              %h4 ABOUT US
+              %p
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero
+                magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque
+                viverra vehicula sem ut volutpat.
+              / %p
+              /   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero
+              /   magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque
+              /   viverra vehicula sem ut volutpat.
+
+
+            / FOOTER: REVIEWS
+            .col-sm-4.col-sm-offset-1
+              %h4.center-title REVIEWS
+              .row
+                .col-xs-6
+                  = link_to "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "", target: "_blank" do
+                    = image_tag("yelp.svg", alt: "ResTech Yelp Reviews", title: "ResTech Yelp Reviews", class: "review-logo")
+                .col-xs-4.col-xs-offset-1
+                  = link_to "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "", target: "_blank" do
+                    = image_tag("yp.svg", alt: "ResTech Yellow Pages Reviews", title: "ResTech Yellow Pages Reviews", class: "yp review-logo")
+              / .row
+              /   .col-xs-6.col-xs-offset-3
+              /     = link_to "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "", target: "_blank" do
+              /       = image_tag("yelp.svg", alt: "ResTech Yelp Reviews", title: "ResTech Yelp Reviews", class: "review-logo")
+              / .row
+              /   .col-xs-4.col-xs-offset-4
+              /     = link_to "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "", target: "_blank" do
+              /       = image_tag("yp_new.svg", alt: "ResTech Yellow Pages Reviews", title: "ResTech Yellow Pages Reviews", class: "yp review-logo")
 
               / OLD GREY LOGO  
               / %img.footer-logo.img-responsive{:alt => "", :src => "img/grey_logo.png"}
@@ -22,43 +49,37 @@
               /   = render "layouts/yelp_svg"
               / = image_tag("yelp-2c.png", alt: "ResTech Yelp Page", title: "ResTech Yelp Page", class: "pull-right clear-both")
 
-              %address.address
-                / %p
-                /   = fa_icon "map-marker 2x"
-                /   3845 Pedley Ave
-                / %p
-                /   %i &nbsp;
-                /   Norco, CA 92860
-                %p
-                  = fa_icon "phone 2x"
-                  Phone: (951) 737-5800
-            / FOOTER: ABOUT US
-            .col-sm-4.col-md-4.footer-center
-              %h4.center-title About Us
-              %p
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero
-                magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque
-                viverra vehicula sem ut volutpat.
+              / OLD ADDRESS AND PHONE
+              / %address.address
               / %p
-              /   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero
-              /   magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque
-              /   viverra vehicula sem ut volutpat.
+              /   = fa_icon "map-marker 2x"
+              /   3845 Pedley Ave
+              / %p
+              /   %i &nbsp;
+              /   Norco, CA 92860
+              / %p
+              /   = fa_icon "phone 2x"
+              /   Phone: (951) 737-5800
+
+
+
             / FOOTER: NAVIGATION LINKS
-            .col-sm-4.col-md-4.footer-right
-              %h4.center-title Navigate
-              %ul.footer-navigate
-                %li
-                  = link_to "Home", home_path
-                / %li
-                /   = link_to "About", about_path
-                %li
-                  = link_to "Residential", residential_path
-                %li
-                  = link_to "Commercial", commercial_path
-                %li
-                  = link_to "Products", products_path
-                %li
-                  = link_to "Contact", contact_path
+            / .col-sm-4.col-md-4.footer-right
+            /   %h4.center-title Navigate
+            /   %ul.footer-navigate
+            /     %li
+            /       = link_to "Home", home_path
+            /     / %li
+            /     /   = link_to "About", about_path
+            /     %li
+            /       = link_to "Residential", residential_path
+            /     %li
+            /       = link_to "Commercial", commercial_path
+            /     %li
+            /       = link_to "Products", products_path
+            /     %li
+            /       = link_to "Contact", contact_path
+
   .footer-top
   .footer-bottom
     .container

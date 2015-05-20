@@ -132,8 +132,8 @@
     padding-left: 10px;
   }
   .navbar {
-    border-top: 2px solid #898989;
-    border-bottom: 2px solid #898989;
+    border-top: 2px solid #001957;
+    border-bottom: 2px solid #001957;
     border-right: none;
     border-left: none;
   }
@@ -1354,9 +1354,9 @@ h3 {
 h4 {
   font-size: 14px;
   line-height: 22px;
-  font-weight: bold;
+  font-weight: 600;
   color: #666666;
-  font-family: Arial, sans-serif;
+  /*font-family: Arial, sans-serif;*/
 }
 
 h5 {
@@ -3716,12 +3716,12 @@ hr {
 
 .footer-top {
   height: 2px;
-  background-color: #898989;
+  background-color: #FFF;
 }
 
 .footer-wrapper {
   background-color: #AF1816;
-  padding-top: 17px;
+  padding: 25px 0;
 }
 
 .footer-bottom {
@@ -3749,7 +3749,7 @@ hr {
     }
   }
   h4 {
-    border-bottom: 1px solid #CBCBCB;
+    border-bottom: 2px solid #FFF;
     color: #FFF;
     font-size: 18px;
     margin-bottom: 8px;
@@ -3770,7 +3770,7 @@ hr {
 
 .footer-center p {
   color: #FFF;
-  padding: 12px 0 0;
+  padding: 20px 0 20px;
 }
 
 .footer-navigate li {
