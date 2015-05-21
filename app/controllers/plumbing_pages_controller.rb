@@ -1,22 +1,22 @@
 class PlumbingPagesController < ApplicationController
+  def pipe
+  end
+
   def drain
   end
 
-  def gas
-  end
-
-  def pipe
+  def waterheater
   end
 
   def shower
   end
 
-  def toilet
-  end
-
   def video
   end
 
-  def water
+  def toilet
+  end
+
+  def gas
   end
 end
