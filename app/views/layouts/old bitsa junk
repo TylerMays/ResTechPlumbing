@@ -1,3 +1,41 @@
+ 
+/ WHY RESTECH?
+#left-sidebar.col-md-3.col-sm-3.sidebar
+        / LEFT-SIDEBAR: SIDEBAR NAVIGATION
+        .side-nav.sidebar-block
+          %h2 Why ResTech?
+          %ul
+            %li
+              = fa_icon "check"
+              Complete Plumbing & Drain Services
+            %li
+              = fa_icon "check"
+              Available 24 Hours / 7 Days a Week
+            %li
+              = fa_icon "check"
+              Emergency Service
+            %li
+              = fa_icon "check"
+              Licensed & Insured Technicians
+            %li
+              = fa_icon "check"
+              Millions of Satisfied Customers
+            %li
+              = fa_icon "check"
+              State-of-the-Art Equipment
+            %li
+              = fa_icon "check"
+              Reputation for Quality Work
+            %li
+              = fa_icon "check"
+              No Job is Too Big or Too Small
+            %li
+              = fa_icon "check"
+              Trusted & Recommended Since 1935
+      / END LEFT-SIDEBAR
+
+
+
  / OLD HEADER REVIEWS 
       / .col-sm-4.col-md-4
       /   .row

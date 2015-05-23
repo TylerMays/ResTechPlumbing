@@ -1383,10 +1383,11 @@ h6 {
 }
 
 p {
-  font-family: Arial, sans-serif;
-  color: #666666;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #333333;
   margin: 0;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 21px;
   padding: 0 0 20px;
   .head_phone & {
     padding: 0 0 10px;
@@ -1454,9 +1455,9 @@ blockquote {
 
 blockquote {
   p {
-    color: #898989;
+    color: #666666;
     font-family: 'Open Sans',Arial,sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-style: italic;
     line-height: 21px;
     margin: 0 0 5px;
@@ -3783,6 +3784,7 @@ hr {
 
 .footer-bottom p {
   padding: 18px 0;
+  font-size: 14px;
   color: #ffffff;
   a {
     color: #ffffff;
