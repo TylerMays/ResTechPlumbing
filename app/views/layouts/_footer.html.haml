@@ -10,10 +10,33 @@
             / FOOTER: ABOUT US
             .col-sm-5.col-sm-offset-1.footer-center
               %h4 ABOUT US
-              %p
-                Reliable Exceptional Service Technicians
-                magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque
-                viverra vehicula sem ut volutpat.
+
+              %ul.footer-list
+                %li R.E.S. Tech (Reliable, Exceptional, Service Technicians)
+                %li Serving Riverside, San Bernardino and Los Angeles Counties
+                %li 24/7 Emergency Service
+                %li
+                  Call &nbsp;
+                  = link_to "(951) 737-5800", "tel:951-737-5800"
+                    
+              / %p
+              /   Reliable Exceptional Service Technicians
+              /   R.E.S. Tech (Reliable, Exceptional, Service Technicians) serves Riverside, San Bernardino and Los Angeles Counties
+
+
+
+              / OLD ADDRESS AND PHONE
+              / %address.address
+              /   %p
+              /     = fa_icon "map-marker 2x"
+              /     3845 Pedley Ave
+              /   %p
+              /     %i &nbsp;
+              /     Norco, CA 92860
+              /   %p
+              /     = fa_icon "phone 2x"
+              /     Phone: (951) 737-5800
+
 
               / %ul
               /   %li
@@ -23,17 +46,7 @@
               /     %span.glyphicon.glyphicon-star{"aria-hidden" => "true"}
               /     24/7 Emergency Service
 
-              / OLD ADDRESS AND PHONE
-              / %address.address
-              / %p
-              /   = fa_icon "map-marker 2x"
-              /   3845 Pedley Ave
-              / %p
-              /   %i &nbsp;
-              /   Norco, CA 92860
-              / %p
-              /   = fa_icon "phone 2x"
-              /   Phone: (951) 737-5800
+              
 
               / %p
               /   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero

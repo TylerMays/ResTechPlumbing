@@ -18,10 +18,18 @@
  */
 
 
+
+/*body p {
+	font-family: 'Open Sans', 'sans serif' !important;
+}*/
+
 b {
 	color: #555;
 }
 
+.hero-list b {
+	color: #333;
+}
 .background-pattern {
 	/*! Background pattern from www.subtlepatterns.com */
   background-image: image-url('concrete_seamless.png');
@@ -35,10 +43,6 @@ b {
 	}
 }
 
-/*body p {
-	font-family: 'Open Sans', 'sans serif' !important;
-}*/
-
 .center-column {
 	margin-top: 20px;
 	margin-bottom: 30px;
@@ -48,12 +52,9 @@ b {
 	padding-top: 10px;
 }
 
-
-
 .yp-logo {
 	background: #FFF;
 	max-width: 120px;
-/*	margin: 10px auto;*/
 }
 
 .yelp-logo {
@@ -62,52 +63,56 @@ b {
 
 .review-logo {
 	margin: 15px 0 20px;
+}
 
+#footer .footer-list {
+	display: list-item; 
+	list-style: initial;
+	color: #FFF;
+  padding: 23px 0 10px;
+  margin-left: 16px;
+  font-size: 16px;
+  line-height: 21px;
+  li {
+  	padding-bottom: 5px;
+  }
+  @media (min-width: 768px) {
+  	margin-bottom: 0;
+  }
 }
 
 #nav-wrapper {
 
 // Nav Border
-
 	li.single, li.dropdown {
 		border-right: 1px dotted #898989;
 		&:last-child {
 			border-right: none;
 		}
-
 		@media (max-width: 767px) {
 			border-right: none;
 		}
 	}
 
-
-
 // Nav Button
-
 	.navbar-toggle {
 	  float: none;
 	  margin: 0 auto;
 	  background-color: #001957;
 	  border: none;
-
 	  .icon-bar {
 	  	background-color: #FFF;
 	  	width: 24px;
 	  	height: 4px;
 	  }
-  
 	  @media (max-width: 991px) {
 	  	display: block;
 	  }
 	}
 
-
-
 // Background Color and Orientation
-
 	@media (max-width: 991px) {
 		background: #001957;
-
 		.navbar {
 			background-color: #001957;
 		}
@@ -115,12 +120,12 @@ b {
 			background-color: #FFF;
 			margin-bottom: 5px;
 		}
-
 	}
 
 	a {
 			font-size: 18px;
 	}
+
 	i {
 		font-size: 14px;
 		line-height: 18px;
@@ -145,6 +150,7 @@ b {
 		a {
 			font-size: 18px;
 		}
+		
 		i {
 			font-size: 14px;
 			line-height: 18px;
