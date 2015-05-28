@@ -24,12 +24,19 @@
 }*/
 
 b {
-	color: #555;
-}
-
-.hero-list b {
 	color: #333;
 }
+
+.hero-list {
+	b {
+		color: #333;
+		font-style: normal;
+	}
+	p {
+		/*font-style: italic;*/
+	}
+}
+
 .background-pattern {
 	/*! Background pattern from www.subtlepatterns.com */
   background-image: image-url('concrete_seamless.png');
@@ -43,13 +50,38 @@ b {
 	}
 }
 
+.call-btn {
+	padding-bottom: 20px;
+}
+
+.location {
+	padding-bottom: 25px;
+}
+
+.hero-block-2 .btn-warning {
+	letter-spacing: 1px;
+	margin-top: 0;
+	font-size: 18px;
+	font-weight: normal;
+	background-color: #dc971f;
+  border-color: #d58512;
+  &:hover {
+  	background-color: #D2871C;
+  	border-color: #B97618;
+  }
+}
+
 .center-column {
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
 
+/*.grey-box p {
+	padding-bottom: 22px;
+}*/
+
 .main-content {
-	padding-top: 10px;
+	padding-top: 20px;
 }
 
 .yp-logo {
@@ -123,7 +155,10 @@ b {
 	}
 
 	a {
-			font-size: 18px;
+		font-size: 18px;
+		/*&:hover {
+			background-color: #f5f5f5;
+		}*/
 	}
 
 	i {
