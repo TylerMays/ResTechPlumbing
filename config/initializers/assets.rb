@@ -1,1 +1,1 @@
-Rails.application.config.assets.precompile += %w( fonts/flexslider-icon.eot fonts/flexslider-icon.woff fonts/flexslider-icon.ttf )
+Rails.application.config.assets.precompile += %w(  )
