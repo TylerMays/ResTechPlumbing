@@ -1,8 +1,24 @@
-/%h1 HomePages#contact
-/%p Find me in app/views/home_pages/contact.html.haml
-%h1 CONTACT
-%p 24/7 Emergency Service
-%p.head_phone
-= link_to "(951) 737-5800", "tel:951-737-5800"
-%p For all customer service questions and inquiries contact: restechpd@yahoo.com
-%p Leave us a review on Yelp or YP
+.row
+	.col-md-12.col-sm-12
+		.row.show-grid.clear-both
+			/ BEGIN ARTICLE CONTENT AREA
+			.col-sm-8.col-sm-offset-2.center-column
+				%article.contact
+					%h1 CONTACT
+					.text-divider1
+					%p For 24/7 Emergency Service contact:
+					= link_to "tel:951-737-5800", class: "btn btn-lg btn-danger contact" do
+						= fa_icon "phone lg inverse"
+						&nbsp; (951) 737-5800
+					/ = link_to "(951) 737-5800", "tel:951-737-5800"
+					.text-divider1
+					%p
+						For all customer service questions and inquiries contact:
+					%p
+						= mail_to "restechpd@yahoo.com"
+					.text-divider1
+					%p
+						Leave us a review on
+						= link_to "Yelp", "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "display-inline", target: '_blank'
+						or
+						= link_to "YP", "http://www.yellowpages.com/norco-ca/mip/restech-plumbing-and-drain-465317947", class: "display-inline", target: '_blank'
