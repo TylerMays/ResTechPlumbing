@@ -98,15 +98,16 @@ b {
 }
 
 #footer .footer-list {
-	display: list-item; 
-	list-style: initial;
+	letter-spacing: 0.5px;
 	color: #FFF;
   padding: 23px 0 10px;
-  margin-left: 16px;
   font-size: 16px;
   line-height: 21px;
+  a:hover {
+  		color: white;
+  }
   li {
-  	padding-bottom: 5px;
+  	padding-bottom: 10px;
   }
   @media (min-width: 768px) {
   	margin-bottom: 0;
