@@ -4,24 +4,40 @@
 			/ BEGIN ARTICLE CONTENT AREA
 			.col-sm-8.col-sm-offset-2.center-column
 				%article.contact
-					%h1 CONTACT
+					%h1
+						=fa_icon "comments lg", class: "pull-right"
+						CONTACT
 					.text-divider1
 					%p
 						For 24/7 Emergency Service Call:
 					%p
+						=fa_icon "phone lg", class: "pull-left"
 						%b
+							&nbsp;
 							= link_to "(951) 737-5800", "tel:951-737-5800"
 					.text-divider1
 					%p
 						For all customer service questions and inquiries contact:
 					%p
+						=fa_icon "envelope lg", class: "pull-left"
 						%b
+							&nbsp;							
 							= mail_to "restechpd@yahoo.com"
 					.text-divider1
-					%p
-						Leave us a review on
-						%b
-							= link_to "Yelp", "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "display-inline", target: '_blank'
-						or
-						%b
-							= link_to "YP", "http://www.yellowpages.com/norco-ca/mip/restech-plumbing-and-drain-465317947", class: "display-inline", target: '_blank'
+					
+					%p	
+						Leave us a review on:
+						%p
+							&nbsp;
+							=fa_icon "star", class: "pull-left"
+							=fa_icon "star", class: "pull-left"
+							=fa_icon "star", class: "pull-left"
+							=fa_icon "star", class: "pull-left"
+							=fa_icon "star", class: "pull-left"
+						%p
+							%b
+								= link_to "Yelp", "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "display-inline", target: '_blank'
+							or
+							%b
+								= link_to "YP", "http://www.yellowpages.com/norco-ca/mip/restech-plumbing-and-drain-465317947", class: "display-inline", target: '_blank'
+						
