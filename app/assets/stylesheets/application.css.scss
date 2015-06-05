@@ -18,13 +18,44 @@
  */
 
 
+/*   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);   */
+
 
 /*body p {
 	font-family: 'Open Sans', 'sans serif' !important;
 }*/
 
+/*a.restech-btn.btn-danger, a.restech-btn.btn-warning {
+	background-color: #fff;
+	color: #001957;
+	border-color: #AF1816;
+	font-size: 22px;
+	border-width: 2px;
+	&:hover {
+		background-color: #fff;
+		color: #001957;
+		border-color: #d58512;
+	}
+}*/
+
+
 b {
 	color: #333;
+}
+
+.fa-leaf {
+	color: #459123;
+}
+.fa-comments, .fa-circle, .fa-building-o, .fa-envelope, .contact .fa-phone {
+	color: #001957;
+}
+.contact .fa-star {
+	color: #ffc200;
+}
+.fa-building-o {
+	@media (max-width: 350px) {
+		font-size: 1em;
+	}
 }
 
 .hero-list {
@@ -42,6 +73,7 @@ b {
 
 .btn-danger {
 	background-color: #D72F2B;
+	font-size: 19px;
 	&:hover {
 		background-color: #BB2A1A;
 	}
@@ -58,17 +90,30 @@ b {
 	p {
 		color: #333333;
 		font-size: 18px;
+		line-height: 24px;
+	}
+}
+
+.restech-list {
+	font-size: 20px;
+	line-height: 26px;
+	.fa {
+		font-size: 18px;
+	}
+	li {
+		padding-bottom: 15px;
 	}
 }
 
 .location {
 	padding-bottom: 25px;
+	font-size: 19px
 }
 
 .hero-block-2 .btn-warning {
 	letter-spacing: 1px;
 	margin-top: 0;
-	font-size: 18px;
+	font-size: 19px;
 	font-weight: normal;
 	background-color: #dc971f;
   border-color: #d58512;
@@ -83,8 +128,11 @@ b {
 	margin-bottom: 70px;
 }
 
-/*.grey-box p {
-	padding-bottom: 22px;
+/*.header-wrapper {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	@media (max-width: 767px){
+		margin: 0 -20px;
+	}
 }*/
 
 .main-content {
@@ -104,37 +152,67 @@ b {
 	margin: 15px 0 20px;
 }
 
-#footer .footer-list {
-	letter-spacing: 0.5px;
-	color: #FFF;
-  padding: 23px 0 10px;
-  font-size: 16px;
-  line-height: 21px;
-  a:hover {
-  		color: white;
+#footer {
+	h4 {
+  	letter-spacing: 1px;
   }
-  li {
-  	padding-bottom: 10px;
-  }
-  @media (min-width: 768px) {
-  	margin-bottom: 0;
-  }
+
+	.footer-list {
+		letter-spacing: 1px;
+		color: #FFF;
+	  padding: 23px 0 10px;
+	  font-size: 16px;
+	  line-height: 23px;
+	  a:hover {
+	  		color: white;
+	  }
+	  li {
+	  	padding-bottom: 10px;
+	  	i {
+	  		font-size: 22px;
+	  		text-decoration: underline;
+	  		font-style: normal;
+	  	}
+	  }
+	  @media (min-width: 768px) {
+	  	margin-bottom: 0;
+	  }
+	}
 }
 
 #nav-wrapper {
-
-// Nav Border
-	li.single, li.dropdown {
-		border-right: 1px dotted #898989;
-		&:last-child {
-			border-right: none;
+	.navbar-collapse {
+		@media (min-width: 768px) and (max-width: 991px) {
+			padding: 5px 0;
 		}
-		@media (max-width: 767px) {
-			border-right: none;
+		@media (min-width: 992px) {
+			padding: 0 26px;
 		}
 	}
 
-// Nav Button
+	/* NAV BORDER */
+	li.single, li.dropdown {
+
+		@media (min-width: 768px) {
+			border-right: 1px dotted #333;
+			&:last-child {
+				border-right: none;
+			}
+		}
+		@media (min-width: 992px) {
+			background-color: #f5f5f5;
+
+
+			&, &:last-child {
+				border-right: 1px dotted #333;
+			}
+			&:first-child {
+				border-left: 1px dotted #333;
+			}
+		}
+	}
+
+	/* NAV BUTTON */
 	.navbar-toggle {
 	  float: none;
 	  margin: 0 auto;
@@ -150,7 +228,7 @@ b {
 	  }
 	}
 
-// Background Color and Orientation
+	/*BACKGROUND COLOR AND ORIENTATION*/
 	@media (max-width: 991px) {
 		background: #001957;
 		.navbar {
@@ -158,17 +236,15 @@ b {
 		}
 		.nav-justified {
 			background-color: #FFF;
-			margin-bottom: 5px;
+			margin-bottom: 6px;
 		}
 	}
-
 	a {
 		font-size: 18px;
-		/*&:hover {
-			background-color: #f5f5f5;
-		}*/
+		&:hover {
+			background-color: #fff;
+		}
 	}
-
 	i {
 		font-size: 14px;
 		line-height: 18px;
@@ -176,7 +252,6 @@ b {
 			line-height: 14px;
 		}
 	}
-
 	.dropdown-menu {
 		border-radius: 0;
 		font-weight: normal;
@@ -189,16 +264,13 @@ b {
 
 	@media (max-width: 767px) {
 		margin: 0 -20px 0;
-
 		a {
 			font-size: 18px;
 		}
-		
 		i {
 			font-size: 14px;
 			line-height: 18px;
 		}
-
 		.dropdown-menu {
 			position: static;
 			float: none;
@@ -211,7 +283,6 @@ b {
 				font-size: 16px;	
 			}
 		}
-
 		.nav-justified {
 			margin-bottom: 38px;
 		}

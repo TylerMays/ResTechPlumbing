@@ -1,45 +1,46 @@
-/ THE LINE AT THE VERY TOP OF THE PAGE
-.top_line
-/ HEADER AREA
-%header
-  .container
-    .row
-      / HEADER: LOGO AREA
-      .col-sm-5.col-md-4.logo
-        = link_to home_path, class: 'logo' do
-          = image_tag("logo.png", alt: "ResTech Plumbing and Drains logo surrounded by stars", title: "ResTech Plumbing and Drains")
-      .col-sm-6.col-sm-offset-1.col-md-5.col-md-offset-3.head_phone
-        / HEADER: PHONE NUMBER BUTTON
-        .call-btn
-          = link_to "tel:951-737-5800", class: "btn btn-lg btn-danger" do
-            = fa_icon "phone lg inverse"
-            &nbsp; (951) 737-5800
-        .location
-          Serving
-          = succeed ',' do
-            %b Riverside
-          %b San Bernardino
-          %br>
-          &
-          %b Los Angeles
-          Counties
-            
+.header-wrapper
+  / THE LINE AT THE VERY TOP OF THE PAGE
+  .top_line
+  / HEADER AREA
+  %header
+    .container
+      .row
+        / HEADER: LOGO AREA
+        .col-sm-5.col-md-4.logo
+          = link_to home_path, class: 'logo' do
+            = image_tag("logo.png", alt: "ResTech Plumbing and Drains logo surrounded by stars", title: "ResTech Plumbing and Drains")
+        .col-sm-6.col-sm-offset-1.col-md-5.col-md-offset-3.head_phone
+          / HEADER: PHONE NUMBER BUTTON
+          .call-btn
+            = link_to "tel:951-737-5800", class: "btn btn-lg btn-danger" do
+              = fa_icon "phone lg inverse"
+              &nbsp; (951) 737-5800
+          .location
+            Serving
+            = succeed ',' do
+              %b Riverside
+            %b San Bernardino
+            %br>
+            &
+            %b Los Angeles
+            Counties
+              
 
-        / %p
-        /   %i Serving :
-        /   %br 
-        /   %b Riverside, San Bernardino
-        /   %br
-        /   & 
-        /   %b Los Angeles
-        /   Counties
+          / %p
+          /   %i Serving :
+          /   %br 
+          /   %b Riverside, San Bernardino
+          /   %br
+          /   & 
+          /   %b Los Angeles
+          /   Counties
 
-        / %p
-        /   Serving 
-        /   %b Riverside, San Bernardino 
-        /   & 
-        /   %b Los Angeles Counties        
+          / %p
+          /   Serving 
+          /   %b Riverside, San Bernardino 
+          /   & 
+          /   %b Los Angeles Counties        
 
 
-  / HEADER: PRIMARY SITE NAVIGATION
-  = render 'layouts/navigation'
+    / HEADER: PRIMARY SITE NAVIGATION
+    = render 'layouts/navigation'
