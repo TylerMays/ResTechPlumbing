@@ -1,76 +1,20 @@
 %footer#footer
-  / .footer-top 
   .footer-wrapper
     .container
       .row.show-grid
         .col-sm-12.col-md-12
           .row.show-grid
-
-
             / FOOTER: ABOUT US
             .col-sm-5.col-sm-offset-1.footer-center
               %h4 ABOUT
-              / %p
-              /   Restech Plumbing and Drains delivers reliable, exceptional service to Riverside, San Bernardino and Los Angeles Counties.
-              /   %br
-              /   For 24/7 Emergency Service call
-              /   = link_to "(951) 737-5800", "tel:951-737-5800"
               %ul.footer-list
                 %li
                   <i>R</i>eliable <i>E</i>xceptional <i>S</i>ervice <i>TECH</i>nicians
-                  / %span> R
-                  / eliable
-                  / &nbsp;
-                  / %span> E
-                  / xceptional
-                  / &nbsp;
-                  / %span> S
-                  / ervice
-                  / %span &nbsp;
-                  / %span>  TECH
-                  / nicians
-
                 %li Serving Riverside, San Bernardino & Los Angeles Counties
                 %li 24/7 Emergency Service
                 %li
                   Call
-                  = link_to "(951) 737-5800", "tel:951-737-5800"
-                    
-              / %p
-              /   Reliable Exceptional Service Technicians
-              /   R.E.S. Tech (Reliable, Exceptional, Service Technicians) serves Riverside, San Bernardino and Los Angeles Counties
-
-
-
-              / OLD ADDRESS AND PHONE
-              / %address.address
-              /   %p
-              /     = fa_icon "map-marker 2x"
-              /     3845 Pedley Ave
-              /   %p
-              /     %i &nbsp;
-              /     Norco, CA 92860
-              /   %p
-              /     = fa_icon "phone 2x"
-              /     Phone: (951) 737-5800
-
-
-              / %ul
-              /   %li
-              /     = fa_icon "star 2x"
-              /     Licensed and Bonded
-              /   %li
-              /     %span.glyphicon.glyphicon-star{"aria-hidden" => "true"}
-              /     24/7 Emergency Service
-
-              
-
-              / %p
-              /   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non libero
-              /   magna. Sed et quam lacus. Fusce condimentum eleifend enim a feugiat. Pellentesque
-              /   viverra vehicula sem ut volutpat.
-              
-
+                  = link_to "(951) 737-5800", "tel:951-737-5800"              
             / FOOTER: REVIEWS
             .col-sm-5
               %h4.center-title REVIEWS
@@ -81,44 +25,6 @@
                 .col-xs-3.col-xs-offset-1.col-sm-4.col-sm-offset-1
                   = link_to "http://www.yellowpages.com/norco-ca/mip/restech-plumbing-and-drain-465317947", class: "", target: "_blank" do
                     = image_tag("yp.svg", alt: "ResTech Yellow Pages Reviews", title: "ResTech Yellow Pages Reviews", class: "yp-logo review-logo")
-              / .row
-              /   .col-xs-6.col-xs-offset-3
-              /     = link_to "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "", target: "_blank" do
-              /       = image_tag("yelp.svg", alt: "ResTech Yelp Reviews", title: "ResTech Yelp Reviews", class: "review-logo")
-              / .row
-              /   .col-xs-4.col-xs-offset-4
-              /     = link_to "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "", target: "_blank" do
-              /       = image_tag("yp_new.svg", alt: "ResTech Yellow Pages Reviews", title: "ResTech Yellow Pages Reviews", class: "yp review-logo")
-
-              / OLD GREY LOGO  
-              / %img.footer-logo.img-responsive{:alt => "", :src => "img/grey_logo.png"}
-              /= image_tag "logo-bw.png", class: "footer-logo img-responsive"
-              / FOOTER: ADDRESS
-
-              / OLD SVG
-              / = link_to "http://www.yelp.com/biz/restech-plumbing-and-drains-norco", class: "pull-right logo", target: "_blank" do
-              /   = render "layouts/yelp_svg"
-              / = image_tag("yelp-2c.png", alt: "ResTech Yelp Page", title: "ResTech Yelp Page", class: "pull-right clear-both")
-
-
-
-            / FOOTER: NAVIGATION LINKS
-            / .col-sm-4.col-md-4.footer-right
-            /   %h4.center-title Navigate
-            /   %ul.footer-navigate
-            /     %li
-            /       = link_to "Home", home_path
-            /     / %li
-            /     /   = link_to "About", about_path
-            /     %li
-            /       = link_to "Residential", residential_path
-            /     %li
-            /       = link_to "Commercial", commercial_path
-            /     %li
-            /       = link_to "Products", products_path
-            /     %li
-            /       = link_to "Contact", contact_path
-
   .footer-top
   .footer-bottom
     .container
